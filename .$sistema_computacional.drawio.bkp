@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" modified="2025-01-31T22:55:03.316Z" version="22.0.3" etag="jz-C_LpEv4RsQi-P6il9" type="device">
+  <diagram name="Página-1" id="mCKiX5ogkwkYy5XdX929">
+    <mxGraphModel dx="779" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r5UqV_ZK5cIhQ_7Vw98K-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Programas usuário&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="250" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5UqV_ZK5cIhQ_7Vw98K-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="299" width="30" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="r5UqV_ZK5cIhQ_7Vw98K-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Sistema Operacional (SO) - Software&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="260" y="300" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5UqV_ZK5cIhQ_7Vw98K-5" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 255); font-size: 14px;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;Computador - Hardware&lt;/b&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CPU&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RAM&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Disk&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7197cc;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r5UqV_ZK5cIhQ_7Vw98K-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Sistema &lt;br&gt;de &lt;br&gt;Computação&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="329.5" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

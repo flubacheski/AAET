@@ -1,0 +1,10 @@
+Para configurar a aula
+
+- instalar o npm
+sudo apt install npm
+
+- Instalar a CLI do Marp 
+sudo npm install -g @marp-team/marp-cli
+
+- converter
+marp AAET.md --output AAET.html
