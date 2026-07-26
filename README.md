@@ -52,7 +52,7 @@ Ao final do semestre, caso o aluno possua **média final maior ou igual a 5**, m
 
 
 ---
-# Como calcular o **tempo de execução** do algoritmo ? 
+# Como calcular o **tempo de execução** de um algoritmo ? 
 
 > Para obter o **tempo de execução** de um algoritmo poderíamos implementar o algoritmo e realizar vários testes para várias entradas. Mas ai surge algumas questões:
 
@@ -64,7 +64,9 @@ Ao final do semestre, caso o aluno possua **média final maior ou igual a 5**, m
 
 
 ---
-# Como calcular tempo de execução (complexidade de tempo) ?
+# Como calcular o **tempo de execução** de um algoritmo ? 
+
+* Podemos **abstrair** o problema, ou seja, focar propriedades essenciais para calcular o **tempo de execução**, desconsiderando os detalhes de implementação que não são relevantes para o nível de análise realizado.
 
 * Em vez de perguntar
 
@@ -74,22 +76,15 @@ Ao final do semestre, caso o aluno possua **média final maior ou igual a 5**, m
  
     * "**Quantas operações** o algoritmo executa em função do tamanho da entrada?"
 
-
 ---
-# Algorimo que soma elementos de um vetor
-
-Essa mudança de perspectiva elimina detalhes que não são essenciais para a análise. Por exemplo:
-
-```text
-Soma-Vetor(A)
-1. soma = 0
-2. n = |A|
-3. para i = 1 até n
-4.     soma = soma + A[i]
-5.     i = i + 1
-6. retorne soma
-```
-* Nesse caso não estamos considerando **se**:
+# Considere o algorimo que soma elementos de um vetor
+$SomaVetor(A)$
+$1. \ soma = 0$
+$2. \ para \ i = 1 \ até  \ |A|$
+$3. \qquad soma = soma + A[i]$
+$4. \qquad i = i + 1$
+$5. \ retorne \ soma$
+* Nesse caso não consideramos **se**:
     * a soma demora $1 ns$ ou $5 ns$;
     * o código foi escrito em `C`, `Java` ou `Python;
     * o processador possui *cache L3*.
@@ -114,34 +109,35 @@ Agora vamos contar aproximadamente as operações.
 
 | Operação             | Quantidade |
 | -------------------- | ---------: |
-| `soma = 0`           |          1 |
-| `i = 1`              |          1 |
-| teste `ate  n`       |      n + 1 |
-| incremento de `i`    |          n |
-| `soma = soma + A[i]` |          n |
-| `i = i + 1`          |          n |
-| `retorna soma`       |          1 |
+| $soma = 0$           |          1 |
+| $i = 1$              |          1 |
+| $ate \ \vert A \vert$  |      n + 1 |
+| $soma = soma + A[i]$ |          n |
+| $i = i + 1$          |          n |
+| $retorna \ soma$       |          1 |
 
 
 ---
 # Abstração em Análise de Algoritmos
 Somando tudo:
-$T(n)=1+1+(n+1)+n+n+n+1$
+$T(n)=1+1+(n+1)+n+n+1$
 
 ou
 
-$T(n)=4n+4$
-$a=4$ 
+$T(n)=3n+4$
+$a=3$ 
 $b=4$
 
-* concluímos que sua complexidade assintótica é $O(n)$.
+* Podemos dizer que a complexidade assintótica do algoritmo $SomaVetor(A)$ é $O(n)$. **Concordam ??**
 
 ---
 
 # Abstração em Análise de Algoritmos
 
-Na Análise de Algoritmos, a abstração consiste em ignorar os detalhes específicos da implementação — como linguagem de programação, compilador e hardware — e representar o **custo de um algoritmo apenas em função do tamanho da entrada**. Essa abstração permite comparar algoritmos de maneira geral, utilizando funções matemáticas e notações assintóticas, como $O$, $Θ$ e $Ω$.
+#### Na Análise de Algoritmos, a abstração consiste em ignorar os detalhes específicos da implementação — como linguagem de programação, compilador e hardware — e representar o **custo de um algoritmo apenas em função do tamanho da entrada**. 
+
+#### Essa abstração permite comparar algoritmos de maneira geral, utilizando funções matemáticas e notações assintóticas, como $O$, $Θ$ e $Ω$.
 
 ---
 
-# **Obrigado !**
+# Obrigado !
