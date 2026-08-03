@@ -119,6 +119,7 @@ Agora vamos contar aproximadamente as operações.
 
 ---
 # Abstração em Análise de Algoritmos
+
 Somando tudo:
 $T(n)=1+1+(n+1)+n+n+1$
 
@@ -137,6 +138,33 @@ $b=4$
 #### Na Análise de Algoritmos, a abstração consiste em ignorar os detalhes específicos da implementação — como linguagem de programação, compilador e hardware — e representar o **custo de um algoritmo apenas em função do tamanho da entrada**. 
 
 #### Essa abstração permite comparar algoritmos de maneira geral, utilizando funções matemáticas e notações assintóticas, como $O$, $Θ$ e $Ω$.
+
+---
+
+# Objetivos da Disciplina
+
+1. **Identificar** e **demonstrar** a complexidade de espaço e tempo de algoritmos utilizando notação assintótica;
+
+2. **Projetar** e **implementar** algoritmos utilizando divisão e conquista, programação dinâmica e estratégias gulosas;
+
+3. **Descrever** as intuições e funcionamento de algoritmos no contexto de **entrevistas técnicas de programação**.
+
+---
+# Entrevistas Técnicas de Programação
+
+* Uma entrevista técnica é um processo de avaliação em que o candidato deve demonstrar sua capacidade de resolver problemas, justificando suas escolhas e avaliando a eficiência das soluções utilizando conceitos como complexidade;
+
+* Normalmente utilizado no processo seletivo em empresas de tecnologia (Google, Microsoft, Amazon, Meta, Nubank, iFood, entre outras);
+
+* **Exemplo de Problema**: Dado uma sequencia de números inteiros, determine a maior diferença absoluta entre dois elementos da sequência ?
+
+---
+# Como o candidato é avalidado 
+ 
+* O candidato consegue interpretar corretamente o problema ?
+* Consegue propor uma solução que funcionem, mesmo usando força-bruta ?
+* Consegue explicar a solução e fazer uma análise da complexidade da solução ?
+* Consegue propor melhorias na solução de forma a diminuir a complexidade ?
 
 ---
 
