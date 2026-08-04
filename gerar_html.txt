@@ -7,4 +7,4 @@ sudo apt install npm
 sudo npm install -g @marp-team/marp-cli
 
 - converter
-marp AAET.md --output AAET.html
+marp README.md --output index.html

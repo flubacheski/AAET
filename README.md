@@ -159,12 +159,17 @@ $b=4$
 * **Exemplo de Problema**: Dado uma sequencia de números inteiros, determine a maior diferença absoluta entre dois elementos da sequência ?
 
 ---
-# Como o candidato é avalidado 
+# Como seria uma entrevista técnica
  
-* O candidato consegue interpretar corretamente o problema ?
-* Consegue propor uma solução que funcionem, mesmo usando força-bruta ?
-* Consegue explicar a solução e fazer uma análise da complexidade da solução ?
-* Consegue propor melhorias na solução de forma a diminuir a complexidade ?
+* Entendimento do problema, caso não esteja claro faça perguntas para evitar ambiguidade;
+
+* Proponha uma solução, mesmo usando força-bruta;
+
+* Análise de solução e definição da complexidade da solução;
+
+* Propor melhorias na solução de forma a diminuir a complexidade;
+
+* A solução funciona para todos os casos;
 
 ---
 
