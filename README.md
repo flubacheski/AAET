@@ -150,16 +150,16 @@ $b=4$
 3. **Descrever** as intuições e funcionamento de algoritmos no contexto de **entrevistas técnicas de programação**.
 
 ---
-# Entrevistas Técnicas de Programação
+# O que é uma Entrevista Técnica ?
 
 * Uma entrevista técnica é um processo de avaliação em que o candidato deve demonstrar sua capacidade de resolver problemas, justificando suas escolhas e avaliando a eficiência das soluções utilizando conceitos como complexidade;
 
 * Normalmente utilizado no processo seletivo em empresas de tecnologia (Google, Microsoft, Amazon, Meta, Nubank, iFood, entre outras);
 
-* **Exemplo de Problema**: Dado uma sequencia de números inteiros, determine a maior diferença absoluta entre dois elementos da sequência ?
+* **Exemplo de Problema**: $Dado uma sequencia de números inteiros, determine a maior diferença absoluta entre dois elementos da sequência ?$
 
 ---
-# Como seria uma entrevista técnica
+# O que precisa saber em uma Entrevista Técnica ?
  
 * Entendimento do problema, caso não esteja claro faça perguntas para evitar ambiguidade;
 
