@@ -77,7 +77,7 @@ Ao final do semestre, caso o aluno possua **média final maior ou igual a 5**, m
     * "**Quantas operações** o algoritmo executa em função do tamanho da entrada?"
 
 ---
-# Considere o algorimo que soma elementos de um vetor
+# Considere o algoritmo que soma elementos de um vetor
 $SomaVetor(A)$
 $1. \ soma = 0$
 $2. \ para \ i = 1 \ até  \ |A|$
@@ -135,13 +135,13 @@ $b=4$
 
 # Abstração em Análise de Algoritmos
 
-#### Na Análise de Algoritmos, a abstração consiste em ignorar os detalhes específicos da implementação — como linguagem de programação, compilador e hardware — e representar o **custo de um algoritmo apenas em função do tamanho da entrada**. 
+Na Análise de Algoritmos, a abstração consiste em ignorar os detalhes específicos da implementação — como linguagem de programação, compilador e hardware — e representar o **custo de um algoritmo apenas em função do tamanho da entrada**. 
 
-#### Essa abstração permite comparar algoritmos de maneira geral, utilizando funções matemáticas e notações assintóticas, como $O$, $Θ$ e $Ω$.
+Essa abstração permite comparar algoritmos de maneira geral, utilizando funções matemáticas e notações assintóticas, como $O$, $Θ$ e $Ω$.
 
 ---
 
-# Objetivos da Disciplina
+# Objetivos da disciplina
 
 1. **Identificar** e **demonstrar** a complexidade de espaço e tempo de algoritmos utilizando notação assintótica;
 
@@ -150,16 +150,16 @@ $b=4$
 3. **Descrever** as intuições e funcionamento de algoritmos no contexto de **entrevistas técnicas de programação**.
 
 ---
-# O que é uma Entrevista Técnica ?
+# O que é uma entrevista técnica ?
 
 * Uma entrevista técnica é um processo de avaliação em que o candidato deve demonstrar sua capacidade de resolver problemas, justificando suas escolhas e avaliando a eficiência das soluções utilizando conceitos como complexidade;
 
 * Normalmente utilizado no processo seletivo em empresas de tecnologia (Google, Microsoft, Amazon, Meta, Nubank, iFood, entre outras);
 
-* **Exemplo de Problema**: $Dado uma sequencia de números inteiros, determine a maior diferença absoluta entre dois elementos da sequência ?$
+* **Exemplo de Problema**: "*Dado uma sequencia de números inteiros, determine a maior diferença absoluta entre dois elementos da sequência ?*"
 
 ---
-# O que precisa saber em uma Entrevista Técnica ?
+# O que precisa saber em uma entrevista técnica ?
  
 * Entendimento do problema, caso não esteja claro faça perguntas para evitar ambiguidade;
 
